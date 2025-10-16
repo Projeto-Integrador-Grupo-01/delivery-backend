@@ -110,8 +110,8 @@ public class Produto {
     private String nome;
     private String descricao;
     private Double preco;
-    private String categoria;
-    private Boolean disponivel;
+    private int quantidade;
+    private String foto;
 
     // Getters e Setters
 }
