@@ -1,13 +1,12 @@
 package com.generation.saborlocal.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.math.BigDecimal;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -23,30 +22,21 @@ public class Produto {
 	
 	@Column(length = 100)
 	@NotBlank(message = "O atributo nome é obrigatório.")
-	@Size(min = 5, max = 100, message = "O atributo nome deve conter no mínimo 05 e no máximo 100 caracteres.")
+	@Size(max = 100, message = "O atributo nome deve conter no máximo 100 caracteres.")
 	private String nome;
 	
 	@Column(length = 1000) 
 	@NotBlank(message = "O atributo descrição é obrigatório.") 
-	@Size(min = 10, max = 1000, message = "O atributo descrição deve conter no mínimo 10 e no máximo 1000 caracteres.")
+	@Size(max = 1000, message = "O atributo descrição deve conter no máximo 1000 caracteres.")
 	private String descricao;
 	
 	@NotNull(message = "O atributo preço é obrigatório.")
-	private float preco;
+	private BigDecimal preco;
 	
-	@NotNull(message = "O atributo quantidade é obrigatório.")
 	private int quantidade;
 	
 	@NotBlank(message = "O atributo foto é obrigatório.")
 	private String foto;
-	
-	@ManyToOne
-	@JsonIgnoreProperties("produto")
-	private Categoria categoria;
-	
-	@ManyToOne
-	@JsonIgnoreProperties("produto")
-	private Produtor produtor;
 
 	public Long getId() {
 		return id;
@@ -72,11 +62,11 @@ public class Produto {
 		this.descricao = descricao;
 	}
 
-	public float getPreco() {
+	public BigDecimal getPreco() {
 		return preco;
 	}
 
-	public void setPreco(float preco) {
+	public void setPreco(BigDecimal preco) {
 		this.preco = preco;
 	}
 
@@ -95,21 +85,4 @@ public class Produto {
 	public void setFoto(String foto) {
 		this.foto = foto;
 	}
-
-	public Categoria getCategoria() {
-		return categoria;
-	}
-
-	public void setCategoria(Categoria categoria) {
-		this.categoria = categoria;
-	}
-	
-	public Produtor getProdutor() {
-		return produtor;
-	}
-	
-	public void setProdutor(Produtor produtor) {
-		this.produtor = produtor;
-	}
-
 }
