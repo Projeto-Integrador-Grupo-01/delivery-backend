@@ -15,10 +15,6 @@
 </a>
 </div>
 
-
-
-
-
 ---
 
 ## 🧭 Visão de Negócio
@@ -47,14 +43,6 @@ Pilares principais:
 
 A documentação foi elaborada com o **Typora**, utilizando arquivos Markdown para criar um **README.md** padronizado e legível.
 Essa escolha garante uma estrutura clara, ideal para **apresentações e futuras manutenções**.
-
----
-
-## 🔄 Controle de Versão e Colaboração
-
-- Versionamento realizado com **Git**
-- Repositório hospedado no **GitHub**
-- Uso de **commits frequentes** e **revisões em grupo**
 
 ---
 
@@ -138,7 +126,7 @@ public class Produto {
 
 ## 🧪 Testes
 
-Foram realizados testes manuais via Insomnia e automatizados (JUnit) para validar:
+Foram realizados testes manuais via Insomnia para validar:
 - Inserção, atualização, consultar e exclusão de produtos
 - Retornos corretos dos endpoints REST
 - Persistência no banco de dados
@@ -171,62 +159,45 @@ Foram realizados testes manuais via Insomnia e automatizados (JUnit) para valida
 
 Desenvolvido por [Tech Sisters](https://projeto-integrador-grupo-01.github.io/techsisters/) 🍃
 
-
-
 <table align="center">
   <tr>
     <td align="center">
       <a href="https://github.com/LemesdeMorais">
         <img src="https://github.com/LemesdeMorais.png?size=100" width="100" style="border-radius:50%; border:2px solid #00C853;" alt="Rafaela Morais"/>
-        <br/><sub><b>Rafaela Morais</b></sub>
+        <br/><b>Rafaela Morais</b>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/alineromanini">
         <img src="https://github.com/alineromanini.png?size=100" width="100" style="border-radius:50%; border:2px solid #00C853;" alt="Aline Romanini"/>
-        <br/><sub><b>Aline Romanini</b></sub>
+        <br/><b>Aline Romanini</b>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/cdouradom">
         <img src="https://github.com/cdouradom.png?size=100" width="100" style="border-radius:50%; border:2px solid #00C853;" alt="Cinthia Dourado"/>
-        <br/><sub><b>Cintia Dourado</b></sub>
+        <br/><b>Cintia Dourado</b>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/nicollyjesus">
         <img src="https://github.com/nicollyjesus.png?size=100" width="100" style="border-radius:50%; border:2px solid #00C853;" alt="Nicolly Jesus"/>
-        <br/><sub><b>Nicolly Jesus</b></sub>
+        <br/><b>Nicolly Jesus</b>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/queren-alves">
         <img src="https://github.com/queren-alves.png?size=100" width="100" style="border-radius:50%; border:2px solid #00C853;" alt="Quéren Alves"/>
-        <br/><sub><b>Quéren Alves</b></sub>
+        <br/><b>Quéren Alves</b>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/crissmcoelho">
         <img src="https://github.com/crissmcoelho.png?size=100" width="100" style="border-radius:50%; border:2px solid #00C853;" alt="Cristina Coelho"/>
-        <br/><sub><b>Cristina Coelho</b></sub>
+        <br/><b>Cristina Coelho</b>
       </a>
     </td>
   </tr>
 </table>
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
