@@ -190,7 +190,7 @@ Desenvolvido por [Tech Sisters](https://projeto-integrador-grupo-01.github.io/te
     <td align="center">
       <a href="https://github.com/cdouradom">
         <img src="https://github.com/cdouradom.png?size=100" width="100" style="border-radius:50%; border:2px solid #00C853;" alt="Cinthia Dourado"/>
-        <br/><sub><b>Cinthia Dourado</b></sub>
+        <br/><sub><b>Cintia Dourado</b></sub>
       </a>
     </td>
     <td align="center">
